@@ -1,0 +1,262 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    height: 700px;
+    width: 1200px;
+   
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 500px;
+    margin: 10%;
+    
+}
+.span-col-2{grid-column: span 2 / auto;
+    height: 50px;
+    background-color: white;
+
+}
+
+.span-row-2{grid-row: span 2 / auto ;
+    height: 90px;
+    background-image: url(./clock.jpeg);
+    margin-bottom: 40px   
+}
+
+#set-time{
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+   padding-top: 2%; 
+  height: 40px;
+  text-align: center;
+   
+
+    background-image: linear-gradient(113deg,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-688) var(--unnamed-font-size-24)/var(--unnamed);
+    color: white;
+}
+#set-time:hover{
+    background-image: linear-gradient(-113deg,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+
+
+button{
+    background-image: linear-gradient(#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    font-size: 20px;
+    color: #ffffff;
+}
+button:hover{
+    background-image: linear-gradient(-113deg,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+
+#hidden{
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+    
+}
+.fas,.far{
+   
+      padding-top: 10px;  
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.set{
+    margin-left: 60px;  
+}
+label{
+        margin-left: 30px;  
+}
+select{
+    padding-top: 5px;
+    margin-top: 10px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 60px;  
+
+}
+#select1{
+    font-size: 15px;
+}
+
+#select2{
+    
+    margin-left: 90px;
+    font-size: 15px;
+}
+#select3{
+    font-size: 15px;
+    margin-left: 110px;
+}
+
+#dynamic-block{
+   
+   position: absolute;
+   width: 320px;
+   height: 100px;
+   margin-top: 40px;
+   font-size: 25px;
+   text-align: 8px,left;
+   border-radius: 10px;
+   color: black;
+   padding: 10px; 
+   display: flex;
+   flex-wrap: wrap; 
+    border: 2px solid red;
+}
+.block{
+    width: 350px;
+    height: 300px;
+    margin-left: 60%;
+    display: flex;
+    position: relative;
+    bottom: 50%;
+    background-image: url(./img1.jpeg);
+    background-size: cover;
+
+  
+}
+
+.block1{
+    width: 350px;
+    height:50px;
+    margin-left: 60%;
+    display: flex;
+    position: relative;
+    bottom: 50%;
+ 
+}
+.blocku2{
+    width: 250px;
+    height:50px;
+    margin-left: 55%;
+    display: flex;
+    position: absolute;
+    bottom: 70%;
+    border-radius: 10px;
+    opacity: 0.7; 
+    margin-right: 5px;
+    z-index: -1;
+    background: blueviolet;
+   
+}
+.images{
+    top: 250px;
+    left: 50%;
+    position: absolute;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-color: #ffff; 
+    background-image: url(./img1.jpeg);
+    background-size: cover;
+}
+.texts{
+    left: 149px;
+    text-align: left;
+    font: normal normal 900 27px/34px Bauhaus Hv BT;
+    letter-spacing: 0px;
+    color: #8e53f0;
+    opacity: 1;
+    margin: 20px;
+  
+}
+.blocku2{
+    width: 250px;
+    height:50px;
+    margin-left: 55%;
+    display: flex;
+    position: absolute;
+    bottom: 70%;
+    border-radius: 10px;
+    opacity: 0.7; 
+    margin-right: 5px;
+    z-index: -1;
+    background: salmon;
+   
+}
+.blocku1{
+    width: 300px;
+    height:70px;
+    margin-left: 53%;
+    display: flex;
+    position: absolute;
+    bottom: 72%;
+    z-index: -1;
+    border-radius: 10px;
+    background: green; 
+}
+
+.block2{
+    width: 350px;
+    height:90px;
+    margin-left: 52%;
+    display: flex;
+    position: absolute;
+    bottom: 74%;
+    z-index: -1;
+    border-radius: 10px;
+    background: violet;
+    
+}
+#clock1{
+    width: 15%;
+    height: 30%;
+    float: left;
+    color: gray;
+    display: flex;
+    font-size: 15px;
+    padding-top: 5%;
+}
+#h{
+
+    width: 10%;
+    height: 30%;
+    color: black;
+    font-size: 44px;
+    padding-top: 5%;
+}
+#clock2{
+    width: 15%;
+    height: 80%;
+    color: black;
+    padding-left: 5%;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 5%;
+}
+#clock3{
+    width: 15%;
+    height: 80%;
+    color: black;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 5%;
+}
+#clock4{
+    width: 15%;
+    height: 80%;
+    color: black;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 5%;
+ 
+}
+#clock5{
+    width: 15%;
+    height: 80%;
+    color: black;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 10%;
+}
